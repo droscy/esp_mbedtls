@@ -1,0 +1,47 @@
+{
+   "name": "esp_mbedtls_esp8266",
+   "version": "2.23.0+wg1",
+   "description": "MbedTLS for esp_wireguard on esp8266 platform",
+   "keywords":[
+      "esphome",
+      "wireguard",
+      "mbedtls"
+   ],
+   "repository":{
+      "type": "git",
+      "url": "https://github.com/droscy/esp_mbedtls",
+      "branch": "main"
+   },
+   "authors":[
+      {
+         "name": "Simone Rossetto",
+         "email": "simros85@gmail.com",
+         "url": "https://github.com/droscy",
+         "maintainer": true
+      }
+   ],
+   "license": "Apache-2.0",
+   "platforms": "espressif8266",
+   "frameworks": [
+     "arduino",
+     "esp8266-nonos-sdk"
+   ],
+   "export":{
+      "include":[
+         "LICENSE",
+         "README.md",
+         "mbedtls/LICENSE",
+         "mbedtls/include/mbedtls/*.h",
+         "mbedtls/library/*.c",
+         "configs/*"
+      ]
+   },
+   "build":{
+      "includeDir": "mbedtls/include",
+      "srcDir": "mbedtls/library",
+      "flags": [
+        "-Iconfigs",
+        "-DMBEDTLS_CONFIG_FILE='\\<mbedtls/config-esp_wireguard-esp8266.h\\>'"
+      ]
+   }
+}

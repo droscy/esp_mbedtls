@@ -1,0 +1,7 @@
+*.swp
+/.cproject
+/.project
+/.settings/
+/lib/
+/build/
+*.tar.gz
