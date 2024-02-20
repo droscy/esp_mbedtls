@@ -27,13 +27,16 @@
      "esp8266-nonos-sdk"
    ],
    "export":{
-      "include":[
+      "include": [
          "LICENSE",
          "README.md",
          "mbedtls/LICENSE",
          "mbedtls/include/mbedtls/*.h",
-         "mbedtls/library/*.c",
+         "mbedtls/library/*.[ch]",
          "configs/*"
+      ],
+      "exclude": [
+         "mbedtls/library/psa_*"
       ]
    },
    "build":{
