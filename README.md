@@ -3,9 +3,9 @@
 This is a wrapper to configure [MbedTLS](https://github.com/Mbed-TLS/mbedtls)
 for [esp_wireguard](https://github.com/droscy/esp_wireguard/) on **esp8266** platform.
 
-[![PlatformIO Registry](https://badges.registry.platformio.org/packages/droscy/library/esp_mbedtls_esp8266.svg)](https://registry.platformio.org/libraries/droscy/esp_mbedtls_esp8266)
-
 Versions of this library will follow MbedTLS versions plus `+wgX` tag.
+
+[![PlatformIO Registry](https://badges.registry.platformio.org/packages/droscy/library/esp_mbedtls_esp8266.svg)](https://registry.platformio.org/libraries/droscy/esp_mbedtls_esp8266)
 
 ## License
 

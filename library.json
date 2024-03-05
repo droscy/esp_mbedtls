@@ -1,6 +1,6 @@
 {
    "name": "esp_mbedtls_esp8266",
-   "version": "2.23.0+wg1",
+   "version": "2.23.0+wg2",
    "description": "MbedTLS for esp_wireguard on esp8266 platform",
    "keywords":[
       "esphome",
@@ -44,7 +44,7 @@
       "srcDir": "mbedtls/library",
       "flags": [
         "-Iconfigs",
-        "-DMBEDTLS_CONFIG_FILE='\\<mbedtls/config-esp_wireguard-esp8266.h\\>'"
+        "-DMBEDTLS_CONFIG_FILE='\"mbedtls/config-esp_wireguard-esp8266.h\"'"
       ]
    }
 }
