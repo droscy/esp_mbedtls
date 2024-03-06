@@ -1,6 +1,6 @@
 {
    "name": "esp_mbedtls_esp8266",
-   "version": "2.23.0+wg2",
+   "version": "2.22300.2",
    "description": "MbedTLS for esp_wireguard on esp8266 platform",
    "keywords":[
       "esphome",
